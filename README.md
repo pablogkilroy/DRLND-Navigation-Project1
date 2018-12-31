@@ -3,7 +3,8 @@
 
 Project 1: Navigation
 
-Introduction
+##Introduction
+
 For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.
 
 Trained Agent
@@ -19,7 +20,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
-Getting started
+##Getting started
 
 Download or clone the repository
 
@@ -27,8 +28,7 @@ Install the files in the Requirements
 
 Run the Navigation.ipynb file to set up and train the agent
 
-
-Instructions
+##Instructions
 
 Open the Navigation.ipynb with Juyter Notebook and run each of the cells in the file. This will load the environment, set up the action value network, explore the environment and gradually learn until the average score is 13.
 
