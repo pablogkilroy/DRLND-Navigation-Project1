@@ -34,14 +34,16 @@ The task is episodic, and in order to solve the environment, your agent must get
 3. Install the files in the requirements.txt file:
 >conda install --yes --file requirements.txt
 
+##Instructions
+
 4. Navigate to the Repo-Navigation-Project1
  directory and type Jupyter Notebook
 
-5. Open the Navigation.ipynb file. Sequentially press run on each of the blocks of code. The function dpn() trains will train the agent. The last block of code will plot the episode scores. 
+5. Navigate to the p1_navigation directory
 
-##Instructions
-
-Open the Navigation.ipynb with Juyter Notebook and run each of the cells in the file. This will load the environment, set up the action value network, explore the environment and gradually learn until the average score is 13.
+5. Open the Navigation.ipynb with Juyter Notebook and run each of the cells in the file. Sequentially press run on each of the blocks of code. 
+This will load the environment, set up the action value network, explore the environment and gradually learn until the average score is 13.
+The function performing learning over sequential episodes is dqn(). 
 
 
 
