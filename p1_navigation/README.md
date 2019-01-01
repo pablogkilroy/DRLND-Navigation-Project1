@@ -3,7 +3,8 @@
 
 Project 1: Navigation
 
-Introduction
+##Introduction
+
 For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.
 
 Trained Agent
@@ -19,16 +20,26 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
-Getting started
+##Getting started
 
-Download or clone the repository
+1. Download or clone the complete repository Repo-Navigation-Project1 from Github onto a Windows environment. The repository contains two folders:
+- p1_navigation: Contains the main file, Navigation.ipynb running the model as well as the bananas unity executable for a Windows environment
+- python: Contains the unity support files necessary to run the unity applications
 
-Install the files in the Requirements
+2. Create a virtual environment using Anaconda prompt 
+(for windows environment) 
+>conda create --name drlnd python=3.6 
+>activate drlnd
 
-Run the Navigation.ipynb file to set up and train the agent
+3. Install the files in the requirements.txt file:
+>conda install --yes --file requirements.txt
 
+4. Navigate to the Repo-Navigation-Project1
+ directory and type Jupyter Notebook
 
-Instructions
+5. Open the Navigation.ipynb file. Sequentially press run on each of the blocks of code. The function dpn() trains will train the agent. The last block of code will plot the episode scores. 
+
+##Instructions
 
 Open the Navigation.ipynb with Juyter Notebook and run each of the cells in the file. This will load the environment, set up the action value network, explore the environment and gradually learn until the average score is 13.
 
